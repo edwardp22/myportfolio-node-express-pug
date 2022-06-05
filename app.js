@@ -29,4 +29,4 @@ app.use((req, res, next) => {
   res.status(404).render("404", { message: "Page not found" });
 });
 
-app.listen(80, () => console.log("Running on localhost 80"));
+app.listen(443, () => console.log("Running on localhost 443"));
