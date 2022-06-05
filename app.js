@@ -1,6 +1,7 @@
 const express = require("express");
 const data = require("./data.json");
 const app = express();
+const port = process.env.PORT || 3000;
 
 app.set("view engine", "pug");
 app.use(express.static("public"));
@@ -29,4 +30,4 @@ app.use((req, res, next) => {
   res.status(404).render("404", { message: "Page not found" });
 });
 
-app.listen(3000, () => console.log("Running on localhost 3000"));
+app.listen(port, () => console.log("Running on localhost " + port));
