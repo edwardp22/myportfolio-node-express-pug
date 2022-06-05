@@ -14,7 +14,11 @@ block content
         ul
           each tech in project.technologies
             li= tech
-        a.button.expanded(href=project.URL target="_blank") Live Demo
-        a.button.expanded(href=project.GitHub target="_blank") GitHub Repo
+        a.button.expanded(href=project.URL target="_blank") 
+          i.fa-regular.fa-eye &nbsp;
+          span Live Demo
+        a.button.expanded(href=project.GitHub target="_blank") 
+          i.fa-brands.fa-github &nbsp;
+          span GitHub Repo
     each image in project.image_urls
       img.image(src=image)
