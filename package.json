@@ -4,7 +4,7 @@
   "description": "My portfolio showcasing my personal projects.",
   "main": "app.js",
   "scripts": {
-    "run": "node ."
+    "start": "node ."
   },
   "author": "Edward Pena",
   "license": "ISC",
