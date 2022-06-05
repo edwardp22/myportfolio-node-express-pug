@@ -1,0 +1,20 @@
+extends layout.pug
+
+block content 
+  nav.grid-container.portfolio-breadcrumb
+    a(href='/') ← Back
+  article.grid-container.portfolio-intro.portfolio-project
+    .grid-x
+      .cell.small-6.medium-9.large-9
+        h1= project.project_name
+        p.lead.text-light
+          | #{project.description}
+      .cell.portfolio-meta.small-6.medium-2.large-3
+        h6 Technologies
+        ul
+          each tech in project.technologies
+            li= tech
+        a.button.expanded(href=project.URL target="_blank") Live Demo
+        a.button.expanded(href=project.GitHub target="_blank") GitHub Repo
+    each image in project.image_urls
+      img.image(src=image)

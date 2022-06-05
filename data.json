@@ -1,0 +1,76 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "project_name": "My Portfolio",
+      "description": "Portfolio project showcasing my personal projects.",
+      "technologies": ["HTML", "CSS", "Javascript", "Express", "Pug"],
+      "image_thumbnail": "https://i.ibb.co/d5XN72y/myportfolio-Thumbnail.png",
+      "image_urls": [
+        "https://i.ibb.co/ctDfSLC/myportfolio1.png",
+        "https://i.ibb.co/0ZtfbBg/myportfolio2.png"
+      ],
+      "URL": "https://edwardp22.github.io/RandomQuoteGenerator/",
+      "GitHub": "https://github.com/edwardp22/RandomQuoteGenerator"
+    },
+    {
+      "id": 2,
+      "project_name": "Random Quote Generator",
+      "description": "Basic use of HTML, CSS, Javascript to display predefined quotes.",
+      "technologies": ["HTML", "CSS", "Javascript"],
+      "image_thumbnail": "https://i.ibb.co/n6SDZ0H/Quote-Generator-Thumbnail.png",
+      "image_urls": [
+        "https://i.ibb.co/D8tZ6nd/1.png",
+        "https://i.ibb.co/D4hJypd/2.png"
+      ],
+      "URL": "https://edwardp22.github.io/RandomQuoteGenerator/",
+      "GitHub": "https://github.com/edwardp22/RandomQuoteGenerator"
+    },
+    {
+      "id": 3,
+      "project_name": "Page Numbering",
+      "description": "This is a project showcasing manipulation of DOM Objects with vanilla Javascript.",
+      "technologies": ["HTML", "CSS", "Javascript"],
+      "image_thumbnail": "https://i.ibb.co/92r27GL/Page-Numbering-Thumbnail.png",
+      "image_urls": [
+        "https://i.ibb.co/ScKgnfD/screencapture-file-C-Users-edwar-One-Drive-Escritorio-Project-2-Starter-index-html-2022-05-20-14-55.png"
+      ],
+      "URL": "https://edwardp22.github.io/PageNumbering/",
+      "GitHub": "https://github.com/edwardp22/PageNumbering"
+    },
+    {
+      "id": 4,
+      "project_name": "BMI Calculator",
+      "description": "This is a project showcasing skills in express, pug and Javascript.",
+      "technologies": ["HTML", "CSS", "Javascript", "Pug", "Express"],
+      "image_thumbnail": "https://i.ibb.co/gjMxNd4/BMICalculator-Thumbnail.png",
+      "image_urls": ["https://i.ibb.co/MZLzLWq/BMICalculator.png"],
+      "URL": "https://edward-bmi-calculator.herokuapp.com/",
+      "GitHub": "https://github.com/edwardp22/bmi-calculator"
+    },
+    {
+      "id": 5,
+      "project_name": "My Movie Bank",
+      "description": "This project shows information about movies showing in cinema, comming soon, top 10, most popular, and save movies in a favorites list.",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "Font Awesome",
+        "Bootstrap",
+        "IMDB",
+        "Rest countries"
+      ],
+      "image_thumbnail": "https://i.ibb.co/cxrWC0f/My-Movie-Bank-Thumbnail.png",
+      "image_urls": [
+        "https://i.ibb.co/Y8H90ws/Picture1.png",
+        "https://i.ibb.co/jbqHGRC/Picture2.png",
+        "https://i.ibb.co/Z6g41W5/Picture3.png",
+        "https://i.ibb.co/B6qs8gb/Picture4.png",
+        "https://i.ibb.co/H7mDzXG/Picture5.png"
+      ],
+      "URL": "https://edwardp22.github.io/MyMovieBank/",
+      "GitHub": "https://github.com/edwardp22/MyMovieBank"
+    }
+  ]
+}
