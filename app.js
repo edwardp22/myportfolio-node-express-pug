@@ -20,19 +20,19 @@ app.get("/", (req, res) => {
 });
 
 app.get("/:type", (req, res) => {
+  const selected = req.params.type;
+
   const projects = data.projects.filter((project) =>
     project.technologies.some(
-      (tech) => tech.toUpperCase() === req.params.type.toUpperCase()
+      (tech) => tech.toUpperCase() === selected.toUpperCase()
     )
   );
 
-  res.render("index", { projects: projects, technologiesList });
+  res.render("index", { projects: projects, technologiesList, selected });
 });
 
-app.get("/project/:id", (req, res, next) => {
-  const project = data.projects.find(
-    (project) => project.id === +req.params.id
-  );
+app.get("/project/:index", (req, res, next) => {
+  const project = data.projects[req.params.index];
 
   if (project) {
     res.render("project", { project });

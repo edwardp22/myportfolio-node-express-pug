@@ -1,7 +1,23 @@
 {
   "projects": [
     {
-      "id": 1,
+      "project_name": "Book List",
+      "description": "Shows a temporary list of books.",
+      "technologies": [
+        "React.js",
+        "HTML",
+        "CSS",
+        "Javascript",
+        "Redux.js",
+        "Material Table",
+        "React Toastify"
+      ],
+      "image_thumbnail": "https://i.ibb.co/8g3d9sM/Book-List-Thumbnail.png",
+      "image_urls": ["https://i.ibb.co/9pVQ2mr/BookList.png"],
+      "URL": "https://edward-books-frontend.herokuapp.com/",
+      "GitHub": "https://github.com/edwardp22/books-frontend"
+    },
+    {
       "project_name": "My Portfolio",
       "description": "Portfolio project showcasing my personal projects.",
       "technologies": ["HTML", "CSS", "Javascript", "Express", "Pug"],
@@ -14,7 +30,6 @@
       "GitHub": "https://github.com/edwardp22/myportfolio-node-express-pug"
     },
     {
-      "id": 2,
       "project_name": "Random Quote Generator",
       "description": "Basic use of HTML, CSS, Javascript to display predefined quotes.",
       "technologies": ["HTML", "CSS", "Javascript"],
@@ -27,7 +42,6 @@
       "GitHub": "https://github.com/edwardp22/RandomQuoteGenerator"
     },
     {
-      "id": 3,
       "project_name": "Page Numbering",
       "description": "This is a project showcasing manipulation of DOM Objects with vanilla Javascript.",
       "technologies": ["HTML", "CSS", "Javascript"],
@@ -39,7 +53,6 @@
       "GitHub": "https://github.com/edwardp22/PageNumbering"
     },
     {
-      "id": 4,
       "project_name": "BMI Calculator",
       "description": "This is a project showcasing skills in express, pug and Javascript.",
       "technologies": ["HTML", "CSS", "Javascript", "Pug", "Express"],
@@ -49,7 +62,6 @@
       "GitHub": "https://github.com/edwardp22/bmi-calculator"
     },
     {
-      "id": 5,
       "project_name": "My Movie Bank",
       "description": "This project shows information about movies showing in cinema, comming soon, top 10, most popular, and save movies in a favorites list.",
       "technologies": [
@@ -73,7 +85,6 @@
       "GitHub": "https://github.com/edwardp22/MyMovieBank"
     },
     {
-      "id": 6,
       "project_name": "Employee List Generator",
       "description": "Generates a list of random employees, fetching from a public API.",
       "technologies": ["HTML", "CSS", "Javascript"],
