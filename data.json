@@ -23,8 +23,8 @@
       "technologies": ["Node.js", "HTML", "CSS", "Javascript", "Express.js"],
       "image_thumbnail": "https://i.ibb.co/8g3d9sM/Book-List-Thumbnail.png",
       "image_urls": ["https://i.ibb.co/9pVQ2mr/BookList.png"],
-      "URL": "https://edward-books-frontend.herokuapp.com/",
-      "GitHub": "https://github.com/edwardp22/books-frontend"
+      "URL": "https://edward-books-backend.herokuapp.com/books",
+      "GitHub": "https://github.com/edwardp22/books-backend"
     },
     {
       "project_name": "My Portfolio",
@@ -44,29 +44,6 @@
       ],
       "URL": "https://edward-myportfolio.herokuapp.com/",
       "GitHub": "https://github.com/edwardp22/myportfolio-node-express-pug"
-    },
-    {
-      "project_name": "Random Quote Generator",
-      "description": "Basic use of HTML, CSS, Javascript to display predefined quotes.",
-      "technologies": ["HTML", "CSS", "Javascript"],
-      "image_thumbnail": "https://i.ibb.co/n6SDZ0H/Quote-Generator-Thumbnail.png",
-      "image_urls": [
-        "https://i.ibb.co/D8tZ6nd/1.png",
-        "https://i.ibb.co/D4hJypd/2.png"
-      ],
-      "URL": "https://edwardp22.github.io/RandomQuoteGenerator/",
-      "GitHub": "https://github.com/edwardp22/RandomQuoteGenerator"
-    },
-    {
-      "project_name": "Page Numbering",
-      "description": "This is a project showcasing manipulation of DOM Objects with vanilla Javascript.",
-      "technologies": ["HTML", "CSS", "Javascript"],
-      "image_thumbnail": "https://i.ibb.co/92r27GL/Page-Numbering-Thumbnail.png",
-      "image_urls": [
-        "https://i.ibb.co/ScKgnfD/screencapture-file-C-Users-edwar-One-Drive-Escritorio-Project-2-Starter-index-html-2022-05-20-14-55.png"
-      ],
-      "URL": "https://edwardp22.github.io/PageNumbering/",
-      "GitHub": "https://github.com/edwardp22/PageNumbering"
     },
     {
       "project_name": "BMI Calculator",
@@ -106,6 +83,29 @@
       ],
       "URL": "https://edwardp22.github.io/MyMovieBank/",
       "GitHub": "https://github.com/edwardp22/MyMovieBank"
+    },
+    {
+      "project_name": "Random Quote Generator",
+      "description": "Basic use of HTML, CSS, Javascript to display predefined quotes.",
+      "technologies": ["HTML", "CSS", "Javascript"],
+      "image_thumbnail": "https://i.ibb.co/n6SDZ0H/Quote-Generator-Thumbnail.png",
+      "image_urls": [
+        "https://i.ibb.co/D8tZ6nd/1.png",
+        "https://i.ibb.co/D4hJypd/2.png"
+      ],
+      "URL": "https://edwardp22.github.io/RandomQuoteGenerator/",
+      "GitHub": "https://github.com/edwardp22/RandomQuoteGenerator"
+    },
+    {
+      "project_name": "Page Numbering",
+      "description": "This is a project showcasing manipulation of DOM Objects with vanilla Javascript.",
+      "technologies": ["HTML", "CSS", "Javascript"],
+      "image_thumbnail": "https://i.ibb.co/92r27GL/Page-Numbering-Thumbnail.png",
+      "image_urls": [
+        "https://i.ibb.co/ScKgnfD/screencapture-file-C-Users-edwar-One-Drive-Escritorio-Project-2-Starter-index-html-2022-05-20-14-55.png"
+      ],
+      "URL": "https://edwardp22.github.io/PageNumbering/",
+      "GitHub": "https://github.com/edwardp22/PageNumbering"
     },
     {
       "project_name": "Employee List Generator",
