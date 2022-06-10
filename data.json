@@ -18,9 +18,25 @@
       "GitHub": "https://github.com/edwardp22/books-frontend"
     },
     {
+      "project_name": "Book List Server",
+      "description": "Shows a temporary list of books.",
+      "technologies": ["Node.js", "HTML", "CSS", "Javascript", "Express.js"],
+      "image_thumbnail": "https://i.ibb.co/8g3d9sM/Book-List-Thumbnail.png",
+      "image_urls": ["https://i.ibb.co/9pVQ2mr/BookList.png"],
+      "URL": "https://edward-books-frontend.herokuapp.com/",
+      "GitHub": "https://github.com/edwardp22/books-frontend"
+    },
+    {
       "project_name": "My Portfolio",
       "description": "Portfolio project showcasing my personal projects.",
-      "technologies": ["HTML", "CSS", "Javascript", "Express", "Pug"],
+      "technologies": [
+        "Node.js",
+        "HTML",
+        "CSS",
+        "Javascript",
+        "Express.js",
+        "Pug.js"
+      ],
       "image_thumbnail": "https://i.ibb.co/d5XN72y/myportfolio-Thumbnail.png",
       "image_urls": [
         "https://i.ibb.co/ctDfSLC/myportfolio1.png",
@@ -55,7 +71,14 @@
     {
       "project_name": "BMI Calculator",
       "description": "This is a project showcasing skills in express, pug and Javascript.",
-      "technologies": ["HTML", "CSS", "Javascript", "Pug", "Express"],
+      "technologies": [
+        "Node.js",
+        "HTML",
+        "CSS",
+        "Javascript",
+        "Pug.js",
+        "Express.js"
+      ],
       "image_thumbnail": "https://i.ibb.co/gjMxNd4/BMICalculator-Thumbnail.png",
       "image_urls": ["https://i.ibb.co/MZLzLWq/BMICalculator.png"],
       "URL": "https://edward-bmi-calculator.herokuapp.com/",
