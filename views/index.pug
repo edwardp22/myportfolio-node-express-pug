@@ -8,9 +8,16 @@ block content
         | Welcome to my online portfolio. Here you can browse through some of my persosnal my projects.
   article.grid-container.portfolio-index
     .grid-x.grid-margin-x.small-up-1.medium-up-2.large-up-3
+      div.filters
+        h6 Filters
+        a(class=`techList techListFilter` href=`/`) All
+        each tech in technologiesList
+          a(class=`techList techListFilter` href=`/${tech}`)= tech
       each project in projects
         .cell
           a(href=`/project/${project.id}`)
             img.thumbnail(src=project.image_thumbnail ? project.image_thumbnail : '/images/noImage.webp')
             h5= project.project_name
+            each tech in project.technologies
+              div(class=`techList`)= tech
       

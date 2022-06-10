@@ -169,3 +169,21 @@ a:hover {
 .portfolio-bio {
   line-height: 25px;
 }
+
+.techList {
+  border: 1px solid black;
+  border-radius: 15px;
+  background-color: green;
+  padding: 2px 10px;
+  margin: 5px;
+  display: inline-flex;
+}
+
+.techListFilter {
+  cursor: pointer;
+  color: white;
+}
+
+.filters {
+  margin: 15px;
+}
