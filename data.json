@@ -115,6 +115,15 @@
       "image_urls": ["https://i.ibb.co/k3K3PrR/employees-List-Generator.png"],
       "URL": "https://edwardp22.github.io/employee-list-generator/",
       "GitHub": "https://github.com/edwardp22/employee-list-generator"
+    },
+    {
+      "project_name": "Hacker News",
+      "description": "Shows a list of articles as a result of searching inputed value.",
+      "technologies": ["HTML", "CSS", "Javascript", "Pug.js", "Axios"],
+      "image_thumbnail": "https://i.ibb.co/TR7gsTb/HACKERNEWS-Thumbnail.png",
+      "image_urls": ["https://i.ibb.co/0ZnV8qg/HACKERNEWS.png"],
+      "URL": "https://edward-hacker-news.herokuapp.com/",
+      "GitHub": "https://github.com/edwardp22/hacker-news"
     }
   ]
 }
