@@ -19,18 +19,6 @@ app.get("/", (req, res) => {
   res.render("index", { projects: data.projects, technologiesList });
 });
 
-app.get("/:type", (req, res) => {
-  const selected = req.params.type;
-
-  const projects = data.projects.filter((project) =>
-    project.technologies.some(
-      (tech) => tech.toUpperCase() === selected.toUpperCase()
-    )
-  );
-
-  res.render("index", { projects: projects, technologiesList, selected });
-});
-
 app.get("/project/:index", (req, res, next) => {
   const project = data.projects[req.params.index];
 
@@ -43,6 +31,18 @@ app.get("/project/:index", (req, res, next) => {
 
 app.get("/about", (req, res) => {
   res.render("about");
+});
+
+app.get("/type/:type", (req, res) => {
+  const selected = req.params.type;
+
+  const projects = data.projects.filter((project) =>
+    project.technologies.some(
+      (tech) => tech.toUpperCase() === selected.toUpperCase()
+    )
+  );
+
+  res.render("index", { projects: projects, technologiesList, selected });
 });
 
 app.use((req, res, next) => {

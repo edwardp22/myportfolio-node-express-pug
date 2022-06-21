@@ -12,7 +12,7 @@ block content
         h6 Filters
         a(class=`techList techListFilter ${selected ? '' : "techSelected"}` href=`/`) All
         each tech in technologiesList
-          a(class=`techList techListFilter ${selected && selected === tech ? 'techSelected' : ''}` href=`/${tech}`)= tech
+          a(class=`techList techListFilter ${selected && selected === tech ? 'techSelected' : ''}` href=`/type/${tech}`)= tech
       each project, index in projects
         .cell
           a(href=`/project/${index}`)
