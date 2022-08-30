@@ -38,7 +38,7 @@ app.get("/type/:type", (req, res) => {
 
   const projects = data.projects.map((project) => ({
     ...project,
-    show: project.technologies.some(
+    hidden: !project.technologies.some(
       (tech) => tech.toUpperCase() === selected.toUpperCase()
     ),
   }));
