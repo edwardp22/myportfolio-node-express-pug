@@ -2,7 +2,7 @@
   "name": "myportfolio-node-express-pug",
   "version": "1.0.0",
   "description": "My portfolio showcasing my personal projects.",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "start": "node ."
   },
