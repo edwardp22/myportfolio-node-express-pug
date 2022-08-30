@@ -14,10 +14,11 @@ block content
         each tech in technologiesList
           a(class=`techList techListFilter ${selected && selected === tech ? 'techSelected' : ''}` href=`/type/${tech}`)= tech
       each project, index in projects
-        .cell
-          a(href=`/project/${index}`)
-            img.thumbnail(src=project.image_thumbnail ? project.image_thumbnail : '/images/noImage.webp')
-            h5= project.project_name
-            each tech in project.technologies
-              div(class=`techList`)= tech
+        if project.show 
+          .cell
+            a(href=`/project/${index}`)
+              img.thumbnail(src=project.image_thumbnail ? project.image_thumbnail : '/images/noImage.webp')
+              h5= project.project_name
+              each tech in project.technologies
+                div(class=`techList`)= tech
       

@@ -36,11 +36,12 @@ app.get("/about", (req, res) => {
 app.get("/type/:type", (req, res) => {
   const selected = req.params.type;
 
-  const projects = data.projects.filter((project) =>
-    project.technologies.some(
+  const projects = data.projects.map((project) => ({
+    ...project,
+    show: project.technologies.some(
       (tech) => tech.toUpperCase() === selected.toUpperCase()
-    )
-  );
+    ),
+  }));
 
   res.render("index", { projects: projects, technologiesList, selected });
 });
