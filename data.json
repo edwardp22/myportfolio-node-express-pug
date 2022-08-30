@@ -119,10 +119,17 @@
     {
       "project_name": "Hacker News",
       "description": "Shows a list of articles as a result of searching inputed value.",
-      "technologies": ["HTML", "CSS", "Javascript", "Pug.js", "Axios"],
+      "technologies": [
+        "Node.js",
+        "HTML",
+        "CSS",
+        "Javascript",
+        "Pug.js",
+        "Axios"
+      ],
       "image_thumbnail": "https://i.ibb.co/TR7gsTb/HACKERNEWS-Thumbnail.png",
       "image_urls": ["https://i.ibb.co/0ZnV8qg/HACKERNEWS.png"],
-      "URL": "https://edward-hacker-news.herokuapp.com/",
+      "URL": "https://hacker-news.azurewebsites.net/",
       "GitHub": "https://github.com/edwardp22/hacker-news"
     }
   ]
