@@ -23,7 +23,7 @@
       "technologies": ["Node.js", "HTML", "CSS", "Javascript", "Express.js"],
       "image_thumbnail": "https://i.ibb.co/8g3d9sM/Book-List-Thumbnail.png",
       "image_urls": ["https://i.ibb.co/9pVQ2mr/BookList.png"],
-      "URL": "https://edward-books-backend.herokuapp.com/books",
+      "URL": "https://book-backend.azurewebsites.net/",
       "GitHub": "https://github.com/edwardp22/books-backend"
     },
     {
@@ -42,7 +42,7 @@
         "https://i.ibb.co/ctDfSLC/myportfolio1.png",
         "https://i.ibb.co/0ZtfbBg/myportfolio2.png"
       ],
-      "URL": "https://edward-myportfolio.herokuapp.com/",
+      "URL": "https://edward-portfolio.azurewebsites.net/",
       "GitHub": "https://github.com/edwardp22/myportfolio-node-express-pug"
     },
     {
@@ -58,7 +58,7 @@
       ],
       "image_thumbnail": "https://i.ibb.co/gjMxNd4/BMICalculator-Thumbnail.png",
       "image_urls": ["https://i.ibb.co/MZLzLWq/BMICalculator.png"],
-      "URL": "https://edward-bmi-calculator.herokuapp.com/",
+      "URL": "https://bmi-calculator.azurewebsites.net/",
       "GitHub": "https://github.com/edwardp22/bmi-calculator"
     },
     {
