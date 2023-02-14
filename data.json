@@ -1,6 +1,29 @@
 {
   "projects": [
     {
+      "project_name": "Happy Hour Locator",
+      "description": "Application to find the best discounts on foods and drinks in Vancouver.",
+      "technologies": [
+        "Javascript",
+        "HTML",
+        "CSS",
+        "Bootstrap",
+        "Firebase",
+        "Google Maps",
+        "Barcode Reader",
+        "Framer Motion"
+      ],
+      "image_thumbnail": "https://i.ibb.co/D4MsYC2/Thumbnail.jpg",
+      "image_urls": [
+        "https://i.ibb.co/1fVDyVz/1.jpg",
+        "https://i.ibb.co/gyr1w1N/2.jpg",
+        "https://i.ibb.co/Z64QyBD/3.jpg",
+        "https://i.ibb.co/hV4Z61z/4.jpg"
+      ],
+      "URL": "https://www.happyhourlocator.ca/",
+      "GitHub": "https://github.com/edwardp22/happy-hour-locator"
+    },
+    {
       "project_name": "Book List",
       "description": "Shows a temporary list of books.",
       "technologies": [
